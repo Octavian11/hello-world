@@ -1,2 +1,2 @@
 # hello-world
-First ever github repo
+My first ever github repo. This is the first branch commit exercise
