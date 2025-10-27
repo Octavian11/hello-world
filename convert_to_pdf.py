@@ -46,34 +46,74 @@ def convert_markdown_to_html(markdown_content):
     )
 
     # Wrap in a basic HTML template with styling
+    # Using Devonshire branding standards
     full_html = f"""
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <style>
+        /* Body Text: Georgia, Regular */
         body {{
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            line-height: 1.6;
+            font-family: Georgia, 'Times New Roman', serif;
+            line-height: 1.2;
             color: #333;
             max-width: 800px;
             margin: 40px auto;
             padding: 0 20px;
         }}
-        h1, h2, h3, h4, h5, h6 {{
+
+        /* Headers H1, H2: Times New Roman, Bold, Small Caps */
+        h1, h2 {{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-variant: small-caps;
+            color: #14213D;
             margin-top: 24px;
             margin-bottom: 16px;
-            font-weight: 600;
             line-height: 1.25;
         }}
-        h1 {{ font-size: 2em; border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; }}
-        h2 {{ font-size: 1.5em; border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; }}
+        h1 {{ font-size: 2em; border-bottom: 2px solid #14213D; padding-bottom: 0.3em; }}
+        h2 {{ font-size: 1.5em; border-bottom: 1px solid #14213D; padding-bottom: 0.3em; }}
+
+        /* Headers H3-H6: Georgia (body font) */
+        h3, h4, h5, h6 {{
+            font-family: Georgia, 'Times New Roman', serif;
+            font-weight: 600;
+            margin-top: 24px;
+            margin-bottom: 16px;
+            line-height: 1.25;
+        }}
         h3 {{ font-size: 1.25em; }}
+        h4 {{ font-size: 1.1em; }}
+        h5 {{ font-size: 1em; }}
+        h6 {{ font-size: 0.9em; }}
+
+        /* Quotes/Callouts: Times New Roman Italic, 12pt */
+        blockquote {{
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-size: 12pt;
+            margin: 1em 0;
+            padding: 0 1em;
+            color: #333;
+            border-left: 0.25em solid #14213D;
+        }}
+
+        /* Captions & Footnotes: Georgia Italic, 10pt */
+        figcaption, caption, .caption, small, .footnote {{
+            font-family: Georgia, 'Times New Roman', serif;
+            font-style: italic;
+            font-size: 10pt;
+            color: #555;
+        }}
+
+        /* Code blocks */
         code {{
             background-color: #f6f8fa;
             padding: 0.2em 0.4em;
             border-radius: 3px;
-            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+            font-family: 'Courier New', Courier, monospace;
             font-size: 85%;
         }}
         pre {{
@@ -86,6 +126,8 @@ def convert_markdown_to_html(markdown_content):
             background-color: transparent;
             padding: 0;
         }}
+
+        /* Tables */
         table {{
             border-collapse: collapse;
             width: 100%;
@@ -94,22 +136,28 @@ def convert_markdown_to_html(markdown_content):
         table th, table td {{
             border: 1px solid #dfe2e5;
             padding: 6px 13px;
+            font-family: Georgia, 'Times New Roman', serif;
         }}
         table th {{
             background-color: #f6f8fa;
             font-weight: 600;
         }}
-        blockquote {{
-            margin: 0;
-            padding: 0 1em;
-            color: #6a737d;
-            border-left: 0.25em solid #dfe2e5;
+        table caption {{
+            font-family: Georgia, 'Times New Roman', serif;
+            font-style: italic;
+            font-size: 10pt;
+            color: #555;
+            margin-bottom: 8px;
         }}
+
+        /* Images */
         img {{
             max-width: 100%;
         }}
+
+        /* Links */
         a {{
-            color: #0366d6;
+            color: #14213D;
             text-decoration: none;
         }}
         a:hover {{
