@@ -108,29 +108,29 @@ Platform with multiple simultaneous holdings achieved within 3-5 years.
 ## UNDERWRITING GUARDRAILS
 
 **Revenue Quality:**
-- ✅ GRR ≥90%, NRR ≥100% (services: ≥95% acceptable)
-- ✅ 70%+ recurring revenue
+- GRR ≥90%, NRR ≥100% (services: ≥95% acceptable)
+- 70%+ recurring revenue
 
 **Client Concentration:**
-- ✅ Top 1 client ≤20%, Top 5 ≤50%
+- Top 1 client ≤20%, Top 5 ≤50%
 
 **Margins:**
-- ✅ Gross margin ≥45%, EBITDA ≥25% after market-rate CEO comp
-- ✅ Delivery team utilization ≥75%
+- Gross margin ≥45%, EBITDA ≥25% after market-rate CEO comp
+- Delivery team utilization ≥75%
 
 **Cash Conversion:**
-- ✅ DSO ≤60 days, AR >90 days <15%
+- DSO ≤60 days, AR >90 days <15%
 
 **Deal Structure:**
-- ✅ No PE/VC ownership (any percentage = automatic pass)
-- ✅ Vendor partnerships transferable or replaceable
+- No PE/VC ownership (any percentage = automatic pass)
+- Vendor partnerships transferable or replaceable
 
 **RED FLAGS (Automatic Pass):**
-- ❌ Non-transferable vendor partnership + >60% revenue dependency
-- ❌ Revenue declining >15% YoY for 2+ years
-- ❌ Gross margin declining >500 bps over 2 years
-- ❌ Chronic negative operating cash flow
-- ❌ Major client churn (>20% revenue) in last 12 months
+- Non-transferable vendor partnership + >60% revenue dependency
+- Revenue declining >15% YoY for 2+ years
+- Gross margin declining >500 bps over 2 years
+- Chronic negative operating cash flow
+- Major client churn (>20% revenue) in last 12 months
 
 ---
 
