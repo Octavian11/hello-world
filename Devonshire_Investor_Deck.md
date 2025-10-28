@@ -22,6 +22,7 @@ An independent sponsor building the go-to platform for mission-critical trading 
 ## INVESTMENT MODEL
 
 **Self-funded independent sponsor** (NOT traditional search fund):
+
 - Deal-by-deal capital raising from a small group of experienced investors
 - No committed fund; investors review each acquisition opportunity
 - Building LP bench now to transact immediately when the right platform becomes actionable
@@ -35,17 +36,21 @@ An independent sponsor building the go-to platform for mission-critical trading 
 **Mission-Critical Trading Infrastructure & Regulatory Operations** serving asset managers and broker-dealers:
 
 **Managed trading infrastructure and connectivity:**
+
 - OMS/EMS support, FIX onboarding, production support, incident response
 
 **Market data operations and entitlements management:**
+
 - Licensing, vendor compliance, usage audits
 
 **Trade surveillance and regulatory evidence operations:**
+
 - Alert triage, best-ex reporting support, audit trail packaging
 
 **These functions are painful to staff in-house, high-stakes if they fail, and already partially outsourced today to founder-run specialists.**
 
 **Target Profile:**
+
 - $1-5M EBITDA, founder-owned
 - 70%+ recurring revenue that is SLA-backed, retainer-based, or regulatory/process obligation—not project-based consulting
 - Mission-critical: downtime means trading desk goes dark
@@ -54,6 +59,7 @@ An independent sponsor building the go-to platform for mission-critical trading 
 - Fragmented niche with visible bolt-on pipeline
 
 **Target Universe:**
+
 - We've identified 200+ named founder-owned firms across these categories
 - 30-50 match our EBITDA and recurring-revenue profile as viable platforms or bolt-ons
 
@@ -91,12 +97,14 @@ There are searchers in HVAC and dental. There are PE funds at $20M EBITDA and up
 **Deal Structure:** Typical $1-5M EBITDA founder-led businesses with sticky, must-have services. Transactions will be structured with a mix of senior debt and investor equity appropriate to the asset—SBA where it fits, conventional where scale or IP requires it.
 
 **Financing Approach:**
+
 - **SBA 7(a):** $5M max at Prime + 2.75%, 10-year term (for eligible deals ≤$10M EV)
 - **Cash-Flow Term Lenders:** 3.0-4.0x EBITDA at SOFR + 6-8% (Star Mountain, Twin Brook, Monroe Capital, NXT Capital, White Oak)
 - Typical leverage: 60% senior debt, 15% seller note, 25% equity
 - Faster close (45-60 days term debt vs 90-120 SBA)
 
 **Returns Target:** 3-5x MOIC per deal over typical 5-7 year hold periods (22-35% IRR) through:
+
 - Operational improvements (margin expansion, professionalized delivery)
 - Bolt-on acquisitions (platform consolidation in same niche)
 - Multiple expansion (fragmented → consolidated = higher exit multiple)
@@ -108,24 +116,30 @@ Platform with multiple simultaneous holdings achieved within 3-5 years.
 ## UNDERWRITING GUARDRAILS
 
 **Revenue Quality:**
+
 - GRR ≥90%, NRR ≥100% (services: ≥95% acceptable)
 - 70%+ recurring revenue
 
 **Client Concentration:**
+
 - Top 1 client ≤20%, Top 5 ≤50%
 
 **Margins:**
+
 - Gross margin ≥45%, EBITDA ≥25% after market-rate CEO comp
 - Delivery team utilization ≥75%
 
 **Cash Conversion:**
+
 - DSO ≤60 days, AR >90 days <15%
 
 **Deal Structure:**
+
 - No PE/VC ownership (any percentage = automatic pass)
 - Vendor partnerships transferable or replaceable
 
 **RED FLAGS (Automatic Pass):**
+
 - Non-transferable vendor partnership + >60% revenue dependency
 - Revenue declining >15% YoY for 2+ years
 - Gross margin declining >500 bps over 2 years
