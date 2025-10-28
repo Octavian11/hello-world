@@ -7,7 +7,7 @@
 
 Hassan Tariq, independent sponsor and founder of Devonshire Partners. 15 years of buy-side operations at Verition Fund Management ($10B+ multi-manager), Lazard Asset Management, and Barclays. Columbia Executive MBA, Class of 2026. Former customer of the businesses I'm acquiring.
 
-**I have personally run and supported the exact trading infrastructure and regulatory workflows these companies are paid to deliver.** This isn't theoretical domain expertise—I've lived on both sides of this market.
+I have personally run and supported the exact trading infrastructure and regulatory workflows these companies are paid to deliver. This isn't theoretical domain expertise—I've lived on both sides of this market.
 
 ---
 
@@ -15,7 +15,7 @@ Hassan Tariq, independent sponsor and founder of Devonshire Partners. 15 years o
 
 An independent sponsor building the go-to platform for mission-critical trading infrastructure and regulatory operations—the teams trading firms call when they absolutely cannot go down and cannot be out of compliance.
 
-**End goal: Multi-company platform within 3-5 years**, not a single-deal search fund exit.
+End goal: Multi-company platform within 3-5 years, not a single-deal search fund exit.
 
 ---
 
@@ -47,7 +47,7 @@ An independent sponsor building the go-to platform for mission-critical trading 
 
 - Alert triage, best-ex reporting support, audit trail packaging
 
-**These functions are painful to staff in-house, high-stakes if they fail, and already partially outsourced today to founder-run specialists.**
+These functions are painful to staff in-house, high-stakes if they fail, and already partially outsourced today to founder-run specialists.
 
 **Target Profile:**
 
@@ -80,7 +80,7 @@ An independent sponsor building the go-to platform for mission-critical trading 
 
 ## DIFFERENTIATION
 
-There are searchers in HVAC and dental. There are PE funds at $20M EBITDA and up. There are lifestyle tech consultants. **There are almost no sponsor-backed roll-ups led by someone who has personally run this exact trading infrastructure at multi-billion-dollar scale.** That's the gap I'm filling.
+There are searchers in HVAC and dental. There are PE funds at $20M EBITDA and up. There are lifestyle tech consultants. There are almost no sponsor-backed roll-ups led by someone who has personally run this exact trading infrastructure at multi-billion-dollar scale. That's the gap I'm filling.
 
 **vs. Generic Search Funders:** 15 years institutional operations (not 2-5 years consulting). Domain expertise as former customer. Specialist positioning, not generalist.
 
@@ -148,7 +148,7 @@ Platform with multiple simultaneous holdings achieved within 3-5 years.
 
 ---
 
-**This is what I'm building. Feedback welcome.**
+This is what I'm building. Feedback welcome.
 
 ---
 
