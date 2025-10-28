@@ -3,7 +3,8 @@
 PDF Converter - Convert Markdown and HTML files to PDF
 
 This script provides a simple command-line interface to convert
-Markdown (.md) and HTML (.html) files to PDF format.
+Markdown (.md) and HTML (.html) files to PDF format with
+professional Private Equity investment communication formatting.
 
 Dependencies:
     - markdown2: For converting Markdown to HTML
@@ -45,123 +46,252 @@ def convert_markdown_to_html(markdown_content):
         ]
     )
 
-    # Wrap in a basic HTML template with styling
-    # Using Devonshire branding standards
+    # Wrap in a professional HTML template with PE-standard styling
+    # Using Devonshire Partners - Independent Sponsor Brand Palette
     full_html = f"""
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <style>
-        /* Body Text: Georgia, Regular */
+        /* Devonshire Partners Brand Palette Colors:
+           Primary: #14213D (Midnight Blue) - Authority, intelligence, institutional strength
+           Secondary: #3A3A3A (Graphite Gray) - Precision, sophistication, modern professionalism
+           Accent: #B8860B (Royal Gold) - Performance, excellence, ambition
+           Neutral: #FFFFFF (White) - Clean backgrounds
+           Support: #43617D (Steel Blue) - Charts, gradient accents, digital highlights
+        */
+
+        /* Professional Document Layout - PE Investment Communication Standards */
+        @page {{
+            size: letter;
+            margin: 0.75in 1in;
+        }}
+
+        /* Body Text: Georgia, 11pt - Professional Standard */
         body {{
             font-family: Georgia, 'Times New Roman', serif;
-            line-height: 1.2;
-            color: #333;
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 0 20px;
+            font-size: 11pt;
+            line-height: 1.8;
+            color: #000000;
+            background-color: #FFFFFF;
+            max-width: none;
+            margin: 0;
+            padding: 0;
         }}
 
-        /* Headers H1, H2: Times New Roman, Bold, Small Caps */
-        h1, h2 {{
+        /* H1: Cover Page / Document Title */
+        h1 {{
             font-family: 'Times New Roman', Times, serif;
+            font-size: 28pt;
             font-weight: bold;
-            font-variant: small-caps;
             color: #14213D;
-            margin-top: 24px;
-            margin-bottom: 16px;
-            line-height: 1.25;
+            text-align: center;
+            margin: 2.5in 0 0.5in 0;
+            padding: 0;
+            line-height: 1.3;
+            letter-spacing: 0.5px;
+            border: none;
+            page-break-after: always;
         }}
-        h1 {{ font-size: 2em; border-bottom: 2px solid #14213D; padding-bottom: 0.3em; }}
-        h2 {{ font-size: 1.5em; border-bottom: 1px solid #14213D; padding-bottom: 0.3em; }}
 
-        /* Headers H3-H6: Georgia (body font) */
-        h3, h4, h5, h6 {{
-            font-family: Georgia, 'Times New Roman', serif;
-            font-weight: 600;
-            margin-top: 24px;
-            margin-bottom: 16px;
-            line-height: 1.25;
-        }}
-        h3 {{ font-size: 1.25em; }}
-        h4 {{ font-size: 1.1em; }}
-        h5 {{ font-size: 1em; }}
-        h6 {{ font-size: 0.9em; }}
-
-        /* Quotes/Callouts: Times New Roman Italic, 12pt */
-        blockquote {{
+        /* H2: Section Headers */
+        h2 {{
             font-family: 'Times New Roman', Times, serif;
-            font-style: italic;
+            font-size: 16pt;
+            font-weight: bold;
+            color: #14213D;
+            margin: 36pt 0 18pt 0;
+            padding: 0 0 8pt 0;
+            border-bottom: 2px solid #14213D;
+            line-height: 1.3;
+            letter-spacing: 0.3px;
+            page-break-after: avoid;
+        }}
+
+        /* H3: Subsection Headers */
+        h3 {{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 13pt;
+            font-weight: bold;
+            color: #43617D;
+            margin: 24pt 0 12pt 0;
+            padding: 0;
+            line-height: 1.3;
+            page-break-after: avoid;
+        }}
+
+        h4 {{
+            font-family: 'Times New Roman', Times, serif;
             font-size: 12pt;
-            margin: 1em 0;
-            padding: 0 1em;
-            color: #333;
-            border-left: 0.25em solid #14213D;
+            font-weight: bold;
+            color: #3A3A3A;
+            margin: 18pt 0 10pt 0;
         }}
 
-        /* Captions & Footnotes: Georgia Italic, 10pt */
-        figcaption, caption, .caption, small, .footnote {{
+        h5, h6 {{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 11pt;
+            font-weight: bold;
+            color: #3A3A3A;
+            margin: 14pt 0 8pt 0;
+        }}
+
+        /* Paragraphs */
+        p {{
+            margin: 0 0 12pt 0;
+            text-align: justify;
+            orphans: 3;
+            widows: 3;
+        }}
+
+        /* Lists - Professional PE Style */
+        ul, ol {{
+            margin: 12pt 0 18pt 0;
+            padding-left: 28pt;
+        }}
+
+        li {{
+            margin: 0 0 8pt 0;
+            line-height: 1.6;
+        }}
+
+        ul {{
+            list-style-type: disc;
+        }}
+
+        ul ul {{
+            list-style-type: circle;
+            margin-top: 6pt;
+        }}
+
+        /* Horizontal Rules - Section Dividers */
+        hr {{
+            border: none;
+            border-top: 1px solid #CCCCCC;
+            margin: 24pt 0;
+            page-break-after: avoid;
+        }}
+
+        /* Blockquotes - Executive Callouts */
+        blockquote {{
             font-family: Georgia, 'Times New Roman', serif;
+            font-size: 11pt;
             font-style: italic;
-            font-size: 10pt;
-            color: #555;
+            margin: 18pt 0 18pt 28pt;
+            padding: 14pt 20pt;
+            color: #14213D;
+            background-color: #F8F9FA;
+            border-left: 4px solid #B8860B;
+            page-break-inside: avoid;
         }}
 
-        /* Code blocks */
+        /* Strong/Bold - Key Metrics and Emphasis */
+        strong, b {{
+            color: #14213D;
+            font-weight: bold;
+        }}
+
+        /* Emphasis */
+        em, i {{
+            color: #000000;
+            font-style: italic;
+        }}
+
+        /* Code blocks - Financial Data / Metrics */
         code {{
-            background-color: #f6f8fa;
-            padding: 0.2em 0.4em;
+            background-color: #F8F9FA;
+            padding: 2pt 6pt;
             border-radius: 3px;
             font-family: 'Courier New', Courier, monospace;
-            font-size: 85%;
+            font-size: 10pt;
+            color: #3A3A3A;
         }}
+
         pre {{
-            background-color: #f6f8fa;
-            padding: 16px;
-            border-radius: 6px;
-            overflow: auto;
+            background-color: #F8F9FA;
+            padding: 14pt;
+            border-radius: 4px;
+            border-left: 3px solid #43617D;
+            margin: 16pt 0;
+            overflow-x: auto;
+            page-break-inside: avoid;
         }}
+
         pre code {{
             background-color: transparent;
             padding: 0;
         }}
 
-        /* Tables */
+        /* Tables - Professional Financial Tables */
         table {{
             border-collapse: collapse;
             width: 100%;
-            margin: 16px 0;
+            margin: 18pt 0;
+            page-break-inside: avoid;
         }}
+
         table th, table td {{
-            border: 1px solid #dfe2e5;
-            padding: 6px 13px;
+            border: 1px solid #CCCCCC;
+            padding: 10pt 14pt;
             font-family: Georgia, 'Times New Roman', serif;
+            text-align: left;
+            vertical-align: top;
         }}
+
         table th {{
-            background-color: #f6f8fa;
-            font-weight: 600;
+            background-color: #14213D;
+            color: #FFFFFF;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 11pt;
         }}
+
         table caption {{
             font-family: Georgia, 'Times New Roman', serif;
             font-style: italic;
             font-size: 10pt;
-            color: #555;
-            margin-bottom: 8px;
+            color: #3A3A3A;
+            margin-bottom: 10pt;
+            text-align: left;
+        }}
+
+        /* Links - Professional Style */
+        a {{
+            color: #14213D;
+            text-decoration: none;
+        }}
+
+        a:hover {{
+            color: #B8860B;
+            text-decoration: underline;
         }}
 
         /* Images */
         img {{
             max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 18pt auto;
         }}
 
-        /* Links */
-        a {{
-            color: #14213D;
-            text-decoration: none;
+        /* Captions & Footnotes */
+        figcaption, caption, .caption, small, .footnote {{
+            font-family: Georgia, 'Times New Roman', serif;
+            font-style: italic;
+            font-size: 9pt;
+            color: #3A3A3A;
+            line-height: 1.4;
         }}
-        a:hover {{
-            text-decoration: underline;
+
+        /* Page breaks */
+        .page-break {{
+            page-break-before: always;
+        }}
+
+        /* Avoid breaks after headings */
+        h1, h2, h3, h4, h5, h6 {{
+            page-break-after: avoid;
         }}
     </style>
 </head>
@@ -224,7 +354,7 @@ def convert_file_to_pdf(input_path, output_path=None):
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Convert Markdown or HTML files to PDF',
+        description='Convert Markdown or HTML files to PDF with professional PE formatting',
         epilog='Examples:\n'
                '  %(prog)s README.md\n'
                '  %(prog)s document.md output.pdf\n'
@@ -246,7 +376,7 @@ def main():
     parser.add_argument(
         '-v', '--version',
         action='version',
-        version='%(prog)s 1.0.0'
+        version='%(prog)s 2.0.0'
     )
 
     args = parser.parse_args()
